@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <p style="font-size: 1.5em;"><span style="background-color: #00ccff;">{{ flatpage.content }}</span></p>
+    <p>The <strong>task was to adjust formats</strong> and stuff so this is kinda it.</p>
+{% endblock content %}
